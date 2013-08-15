@@ -1,7 +1,7 @@
 #ifndef __EVENT_DECODER_H__
 #define __EVENT_DECODER_H__
 
-#include "BasePixel/psi46_tb.h"
+#include "BasePixel/pixel_dtb.h"
 #include "BasePixel/RawPacketDecoder.h"
 #include "pipe.h"
 

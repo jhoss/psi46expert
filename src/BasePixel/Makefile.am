@@ -11,11 +11,19 @@ libpsi46BasePixel_la_SOURCES = CalibrationTable.cc \
 			       Keithley.cc \
 			       Module.cc \
 			       Pixel.cc \
-			       psi46_tb.cc \
+		 		   pixel_dtb.cpp \
+		 		   usb.cpp \
+		 		   profiler.cpp \
+		 		   rpc.cpp \
+		 		   settings.cpp \
+				   rpc_calls.cpp \
+		           rpc_error.cpp \
+		           rpc_io.cpp \
 			       RawPacketDecoder.cc \
 			       Roc.cc \
 			       SysCommand.cc \
 			       TBAnalogInterface.cc \
+			       TBDigitalInterface.cc \
 			       TBAnalogParameters.cc \
 			       TBInterface.cc \
 			       TBM.cc \
@@ -39,11 +47,18 @@ noinst_HEADERS = CalibrationTable.h \
 		 Keithley.h \
 		 Module.h \
 		 Pixel.h \
-		 psi46_tb.h \
+		 pixel_dtb.h \
+		 usb.h \
+		 profiler.h \
+		 settings.h \
+		 rpc.h \
+		 rpc_error.h \
+		 rpc_io.h \
 		 RawPacketDecoder.h \
 		 Roc.h \
 		 SysCommand.h \
 		 TBAnalogInterface.h \
+		 TBDigitalInterface.h \
 		 TBAnalogParameters.h \
 		 TBInterface.h \
 		 TBM.h \

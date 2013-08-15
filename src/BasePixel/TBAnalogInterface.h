@@ -9,7 +9,7 @@
 
 #include "BasePixel/TBInterface.h"
 #include "BasePixel/ConfigParameters.h"
-#include "BasePixel/psi46_tb.h"
+#include "BasePixel/pixel_dtb.h"
 
 class TBAnalogInterface: public TBInterface
 {
